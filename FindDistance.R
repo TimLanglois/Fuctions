@@ -4,7 +4,7 @@
 
 
 ReplaceLowerOrUpperTriangle <- function(m, triangle.to.replace){
-  # If triangle.to.replace="lower", replaces the lower triangle of a square matrix with its upper triangle.
+  # If triangle.to.replace="lower", replaces the lower triangle of a square matrix with its upper triangle. 
   # If triangle.to.replace="upper", replaces the upper triangle of a square matrix with its lower triangle.
   
   if (nrow(m) != ncol(m)) stop("Supplied matrix must be square.")
